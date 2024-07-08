@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+    }
+
+.bg-box {
+    width: 100%;
+    height: 100vh;
+    background-image: 
+    url("./IMG/Home.webp"),
+    url("./IMG/Grass.png"),
+    url("./IMG/Lamp.png"), 
+    url("./IMG/hedgehog.webp"),  
+    url("./IMG/donut.png");  
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    background-position: center, bottom, top, left, right;
+    background-size: 40%, 20%, 4%, 3%, 3%;
+    }
